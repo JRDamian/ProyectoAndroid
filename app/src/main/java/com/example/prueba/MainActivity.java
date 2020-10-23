@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         Toast.makeText(this,"Bienvenido a la App!", Toast.LENGTH_LONG).show();
 
+
         Button btn = (Button) findViewById(R.id.button);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
